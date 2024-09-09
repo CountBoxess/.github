@@ -39,6 +39,15 @@ O countBoxes é um aplicativo desenvolvido principalmente com JavaScript, que vi
 5. **Validações**
    - Se necessário, determinados campos são validados utilizando o **Yup**, garantindo que os dados inseridos atendam aos critérios exigidos antes de serem processados.
 
+### Padrão de Projeto
+#### Singleton
+
+ - O Singleton é um padrão de projeto de software que garante a existência de apenas uma instância de uma classe, mantendo um ponto global de acesso ao seu objeto.
+
+ - Em nosso projeto, utilizamos o Singleton na instanciação do cliente do prisma, assim garantindo que toda a API acesse um unico objeto desse cliente. Caso não fosse utilizado, poderia haver uma grande perda de desempenho, visto que a instanciação é um processo muito custoso para a aplicação.
+
+ - Caso queira ver como está implementado, acesse `countboxes-api/prisma/client`
+
 ### Intruções de uso
 
 - Padrão de projeto: **Singleton** no Prisma.
