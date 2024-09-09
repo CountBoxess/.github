@@ -65,3 +65,6 @@ Funcionamento
 - Cada projeto tem seu próprio README.md com as instruções de uso.
   - [WEB](https://github.com/CountBoxes/countboxes-web)
   - [API](https://github.com/CountBoxes/countboxes-api)
+ 
+ #### Licença
+- Este projeto está licenciado sob a licença MIT.
